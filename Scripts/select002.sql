@@ -1,0 +1,1 @@
+SELECT id, nome, id_provincia  FROM comuni WHERE id_regione = 15 AND id_provincia  NOT IN (SELECT id from province where nome = "Napoli" )
